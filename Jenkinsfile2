@@ -3,7 +3,7 @@ pipeline[
   stages{
     stages('checkout the code from github'){
       steps{
-        git url: 'https://github.com/ayushi445/Banking-java-project.git/'
+        git url: 'https://github.com/ayushi445/pro2.git/'
         echo 'github url checkout'
       }
     }
