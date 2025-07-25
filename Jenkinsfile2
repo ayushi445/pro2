@@ -18,7 +18,7 @@ pipeline[
         sh 'mvn test'
       }
     }
-    stage('qa with akshat'){
+    stage('qa with ayushi'){
       steps{
         sh 'mnv checkstyle:checkstyle
 
