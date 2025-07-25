@@ -14,3 +14,4 @@ service jenkins restart
 
 
  Go to jenkins -> create pipeline and select https://github.com/ayushi455/Banking-java-project/ as source code project
+More updates
