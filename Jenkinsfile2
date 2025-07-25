@@ -1,0 +1,26 @@
+pipeline[
+  agent any
+  stages{
+    stages('checkout the code from github'){
+      steps{
+        git url: 'https://github.com/ayushi445/Banking-java-project.git/'
+        echo 'github url checkout'
+      }
+    }
+    stage ('codecopile with ayushi'){
+      steps{
+        echo 'starting compiling'
+        sh 'mvn compile'
+      }
+    }
+    stages('codetesting wit ayushi'){
+      steps{
+        sh 'mvn test'
+      }
+    }
+    stage('qa with akshat'){
+      steps{
+        sh 'mnv checkstyle:checkstyle
+
+        
+      
